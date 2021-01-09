@@ -63,13 +63,6 @@ h2.tieudecap2 {
     font-size: 30px;
 }
 
-a.nuthire.btn.btn-primary {
-    margin-top: 30px;
-    width: 180px;
-    background: black;
-    border: none;
-    border-radius: 0px;
-}
 
 .tt h2 {
     font-size: 40px;
@@ -77,6 +70,7 @@ a.nuthire.btn.btn-primary {
     color: white;
     margin-bottom: 22px;
 }
+
 
 .tt p {
     color: #373a3c;
@@ -86,6 +80,7 @@ a.nuthire.btn.btn-primary {
     margin: auto;
    /* margin-bottom: 34px;*/
 }
+
 
 .tt img {
     width: 14%;
@@ -144,54 +139,6 @@ nav.navbar.navbar-light.bg-faded {
     height: 100px;
 } 
 
-@media (max-width: 576px){
-    * {}
-
-h2.tieudecap2.text-sm-left.text-xs-center {
-    margin-top: 25px;
-}
-
-.tt img {
-    width: 203px;
-    margin-top: 108px;
-}
-
-li.nav-item {
-    float: none!important;
-    display: inline;
-}
-
-ul.nav.navbar-nav.float-xs-right {
-    text-align: center;
-    background: white;
-    margin: 0;
-    padding: 0;
-    width: 104%;
-    /* position: relative; */
-    /* left: -8px; */
-    padding: 10px 34px;
-    border-top: 1px solid #d8d8d8;
-}
-
-
-li.nav-item {
-    display: inline!important;
-    margin: 0 0;
-}
-
-a.nav-link {
-    line-height: 27px;
-    display: inline!important;
-}
-
-a.navbar-brand {
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-}
-
-
 /*FOOTER*/
 footer {
     /*position: relative;*/
@@ -241,4 +188,64 @@ footer {
 }
 #page_owner_info .wrapper .social a:hover {
     opacity: 0.7;
+}
+
+
+@media (max-width: 576px){
+    * {}
+.tt h2 {
+   font-size: 25px;
+}
+.tt p {
+    font-size: 13px;
+    width: 90%;
+}
+h2.tieudecap2 {
+    font-size: 18px;
+}
+
+h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 25px;
+}
+.tieudeto h1 {
+    font-size: 27px;
+}
+.tt img {
+    width: 180px;
+    margin-top: 108px;
+}
+
+li.nav-item {
+    float: none!important;
+    display: inline;
+}
+
+ul.nav.navbar-nav.float-xs-right {
+    text-align: center;
+    background: white;
+    margin: 0;
+    padding: 0;
+    width: 104%;
+    /* position: relative; */
+    /* left: -8px; */
+    padding: 10px 34px;
+    border-top: 1px solid #d8d8d8;
+}
+
+
+li.nav-item {
+    display: inline!important;
+    margin: 0 0;
+}
+
+a.nav-link {
+    line-height: 27px;
+    display: inline!important;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 }

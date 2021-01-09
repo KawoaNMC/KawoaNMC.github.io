@@ -14,6 +14,9 @@
 </head>
  <body > 
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=867194697451619&autoLogAppEvents=1" nonce="eRdqTtUh"></script>
+
 <div class="menutop">
 
 	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
@@ -29,7 +32,9 @@
 			<li class="nav-item">
 				<a class="nav-link sp" href="#">Project</a>
 			</li>
-			
+			<li class="nav-item">
+				<a class="nav-link sp" href="#">Comment</a>
+			</li>
 		</ul>
 	  </div>
 	</nav>
@@ -106,15 +111,29 @@
 
  <div class="edu" id="khoisanpham">
  	<div class="container">
- 		<div class="row">
- 			<div class="col-sm-12 tieudeto text-xs-center">
- 				<h1>Project</h1>
- 			</div>
- 			
-			 </div> <!-- het cot 4/1 -->
- 		</div>
+		<div class="row">
+			<div class="col-sm-12 tieudeto text-xs-center">
+				<h1>Project</h1>
+			</div>
+		</div> <!-- het cot 4/1 -->
+		</div>
  	</div>	
  </div>  	<!-- end edu  -->
+
+ 
+<div class="phanhoi" id="phanhoi">
+	<div class="container text-xs-center">	
+		<div class="row">
+			<div class="col-sm-12">
+				<h2> Comment </h2>		
+			</div>
+			<div class="col-sm-8 push-sm-2">
+				<div class="fb-comments" data-href="https://kawoanmc.github.io/" data-width="576" data-numposts="5"></div>
+			</div>
+		</div>
+		
+	</div>
+</div>
 
 <div class="Footer" id="Footer">
 	<section id="page_owner_info">
@@ -138,11 +157,12 @@
 				</a>
 				<a href="javascript:void(0)">
 			</div>
+			
 			<!-- End: Social network items-->
 		</div>
 	</section>
 </div>
- </body>
+</body>
 
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>

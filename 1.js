@@ -10,7 +10,11 @@
  	  	return false ; 
  	  
  	 })
- 	
+	  $(".cm").click(function(){
+		$('body,html').animate({scrollTop:$('#comment').offset().top},700);
+		return false ; 
+	
+   })
 
 })  
  

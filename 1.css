@@ -423,6 +423,7 @@ nav.navbar.navbar-light.bg-faded {
 
 .thongTinSPRight .cancleThongTinSP {
     position: absolute;
+    cursor: pointer;
     top: 0;
     left: 100%;
     margin-left: -32px;

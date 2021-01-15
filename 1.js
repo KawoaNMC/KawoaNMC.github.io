@@ -257,11 +257,11 @@
 
 	// chuyển ảnh sang trái sang phải cho project Rắn Săn Mồi
 	var listImgRanSanMoi = [
-		"images/imgProject/Snake1.png",
-		"images/imgProject/Snake2.png",
-		"images/imgProject/Snake3.png",
-		"images/imgProject/Snake4.png",
-		"images/imgProject/Snake5.png",
+		"images/imgProject/Snake1.PNG",
+		"images/imgProject/Snake2.PNG",
+		"images/imgProject/Snake3.PNG",
+		"images/imgProject/Snake4.PNG",
+		"images/imgProject/Snake5.PNG",
 	]
 	var id = 0;
 	$('#thongTinGameRanSanMoi .thongTinSP .thongTinSPRight .sangTrai').click(
@@ -288,12 +288,12 @@
 	
 	// chuyển ảnh sang trái sang phải cho project Rò Mìn
 	var listImgRoMin = [
-		"images/imgProject/RoMin1.png",
-		"images/imgProject/RoMin2.png",
-		"images/imgProject/RoMin3.png",
-		"images/imgProject/RoMin4.png",
-		"images/imgProject/RoMin5.png",
-		"images/imgProject/RoMin6.png",
+		"images/imgProject/RoMin1.PNG",
+		"images/imgProject/RoMin2.PNG",
+		"images/imgProject/RoMin3.PNG",
+		"images/imgProject/RoMin4.PNG",
+		"images/imgProject/RoMin5.PNG",
+		"images/imgProject/RoMin6.PNG",
 	]
 	var id = 0;
 	$('#thongTinGameRoMin .thongTinSP .thongTinSPRight .sangTrai').click(
